@@ -14,6 +14,6 @@ int main(const char *args) {
   while (1) {
     print_key();
   }
-  printf("");
+  printf("sss");
   return 0;
 }
