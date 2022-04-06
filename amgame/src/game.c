@@ -9,7 +9,7 @@ int main(const char *args) {
   puts("\"\n");
 
   splash();
-  printf("output is %a", 'a');
+  printf("output is %s\n", "str");
   puts("Press any key to see its key code...\n");
   while (1) {
     print_key();
