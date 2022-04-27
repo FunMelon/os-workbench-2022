@@ -10,7 +10,7 @@ int main(const char *args) {
   puts("\"\n");
 
   splash();
-  char str[5] = "hello";
+  char str[] = "hello world";
   printf("before is %s\n", str);
   memset(str, 0, 1);
   printf("atfer is %s\n", str);
