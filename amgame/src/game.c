@@ -1,4 +1,5 @@
 #include <game.h>
+#include <string.h>
 
 // Operating system is a C program!
 int main(const char *args) {
@@ -9,7 +10,10 @@ int main(const char *args) {
   puts("\"\n");
 
   splash();
-  printf("the length is %d", strlen("hello world"));
+  char str[5] = "hello";
+  printf("before is %s", str);
+  memset(str, 0, 1);
+  printf("%s", str);
   puts("Press any key to see its key code...\n");
   while (1) {
     print_key();
