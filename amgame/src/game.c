@@ -12,7 +12,7 @@ int main(const char *args) {
   splash();
   char str[] = "hello world";
   printf("before is %s\n", str);
-  memset(str, 4, 1);
+  memset(str, 'f', strlen(str));
   printf("atfer is %s\n", str);
   puts("Press any key to see its key code...\n");
   while (1) {
