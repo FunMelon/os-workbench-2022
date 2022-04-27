@@ -11,9 +11,9 @@ int main(const char *args) {
 
   splash();
   char str[5] = "hello";
-  printf("before is %s", str);
+  printf("before is %s\n", str);
   memset(str, 0, 1);
-  printf("%s", str);
+  printf("atfer is %s\n", str);
   puts("Press any key to see its key code...\n");
   while (1) {
     print_key();
